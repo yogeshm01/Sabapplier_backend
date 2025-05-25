@@ -144,7 +144,4 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://your-frontend-domain.com"
-]
+CORS_ALLOWED_ORIGINS = [*]
