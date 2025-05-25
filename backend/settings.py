@@ -146,5 +146,5 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://sabapplier-frontend.vercel.app/"
+    "https://sabapplier-frontend.vercel.app"
 ]
