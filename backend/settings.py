@@ -144,4 +144,4 @@ load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-CORS_ALLOWED_ORIGINS = [*]
+CORS_ALLOW_ALL_ORIGINS = True
