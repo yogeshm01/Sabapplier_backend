@@ -6,12 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
-# Django migration files (optional, if you prefer to generate fresh migrations)
+# Django migration files
 **/migrations/*.py
 !**/migrations/__init__.py
 **/migrations/*.pyc
 
-# Virtual environment
+# Virtual environment folders
 venv/
 env/
 
@@ -19,21 +19,29 @@ env/
 *.env
 .env.*
 
-# IDE/editor files
+# IDE/editor configs
 .vscode/
 .idea/
 
-# MacOS
+# MacOS files
 .DS_Store
 
 # Log files
 *.log
 
-# SQLite database (if you're using it for local testing)
+# SQLite database (local use only)
 db.sqlite3
 
-# media/uploads (user-uploaded files, optional)
+# Uploaded media (optional to ignore)
 media/
 
-# Render-specific or deployment configs (optional if you don't want them in Git)
-render.yaml
+# System-specific Python files
+*.egg-info/
+.eggs/
+
+# Render config (✅ Keep this tracked in Git)
+# render.yaml
+
+# Pip cache
+pip-wheel-metadata/
+__pypackages__/
